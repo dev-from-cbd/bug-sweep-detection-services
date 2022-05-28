@@ -96,7 +96,11 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #fff;
+
+  background-color: rgba(0, 0, 0, 0.75);
+
+  /* background-color: #fff; */
+
   z-index: 999;
 }
 .brand-and-toggler {
@@ -575,9 +579,12 @@ section {
 
 @media screen and (min-width: 992px) {
   .navbar {
-    background: transparent;
-    margin-top: 1.4rem;
+    background-color: rgba(0, 0, 0, 0.75);
+
+    /* background: transparent; 
+    margin-top: 1.4rem; */
   }
+
   .navbar .container {
     display: flex;
     align-items: center;
